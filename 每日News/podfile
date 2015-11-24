@@ -1,0 +1,12 @@
+pod 'LTNavigationBar'
+pod 'YAScrollSegmentControl'
+pod 'SDWebImage'
+pod 'DKNightVersion'
+pod 'SDCycleScrollView'
+pod 'AFNetworking'
+pod 'MJRefresh'
+pod 'RCLighting'
+pod 'AVOSCloud'
+pod 'AVOSCloudIM'
+pod 'AVOSCloudCrashReporting'
+

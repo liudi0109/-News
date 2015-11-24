@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="90" id="KGk-i7-Jjw" customClass="MixCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DlK-bs-XEc">
+                        <rect key="frame" x="10" y="10" width="99" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="DlK-bs-XEc" secondAttribute="height" multiplier="1:1" id="LUI-LH-kCz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPX-B5-7XL">
+                        <rect key="frame" x="119" y="18" width="183" height="83"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cPX-B5-7XL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="O6D-aq-ZbV"/>
+                    <constraint firstItem="cPX-B5-7XL" firstAttribute="leading" secondItem="DlK-bs-XEc" secondAttribute="trailing" constant="10" id="Rae-ob-4NJ"/>
+                    <constraint firstItem="DlK-bs-XEc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="UpY-xT-Pbt"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cPX-B5-7XL" secondAttribute="bottom" constant="10" id="UxA-1F-nSq"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cPX-B5-7XL" secondAttribute="trailing" constant="10" id="dK6-gh-w1f"/>
+                    <constraint firstAttribute="bottom" secondItem="DlK-bs-XEc" secondAttribute="bottom" constant="10" id="tJb-Nv-KXc"/>
+                    <constraint firstItem="DlK-bs-XEc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="y03-DV-qEH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgView" destination="DlK-bs-XEc" id="Hqk-wB-4k1"/>
+                <outlet property="nameLabel" destination="cPX-B5-7XL" id="3CX-AY-7wc"/>
+            </connections>
+            <point key="canvasLocation" x="378" y="318"/>
+        </tableViewCell>
+    </objects>
+</document>

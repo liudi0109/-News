@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AVOSCloud (3.1.6.4)
+  - AVOSCloudCrashReporting (3.1.6.4):
+    - AVOSCloud
+  - AVOSCloudIM (3.1.6.4):
+    - AVOSCloud
+  - DKNightVersion (0.9.0):
+    - DKNightVersion/Core (= 0.9.0)
+    - DKNightVersion/Generator (= 0.9.0)
+    - DKNightVersion/Helper (= 0.9.0)
+    - DKNightVersion/UIKit (= 0.9.0)
+  - DKNightVersion/Core (0.9.0)
+  - DKNightVersion/Generator (0.9.0)
+  - DKNightVersion/Helper (0.9.0)
+  - DKNightVersion/UIKit (0.9.0):
+    - DKNightVersion/Core
+  - LTNavigationBar (2.1.1)
+  - MJRefresh (3.0.4)
+  - pop (1.0.8)
+  - RCLighting (0.1):
+    - pop
+  - SDCycleScrollView (1.3)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - YAScrollSegmentControl (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AVOSCloud
+  - AVOSCloudCrashReporting
+  - AVOSCloudIM
+  - DKNightVersion
+  - LTNavigationBar
+  - MJRefresh
+  - RCLighting
+  - SDCycleScrollView
+  - SDWebImage
+  - YAScrollSegmentControl
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AVOSCloud: cb800543837fd747cc4621dc64e1384f3e5135a4
+  AVOSCloudCrashReporting: a0a22867d24feadf340ff4f97f74d088b234a56d
+  AVOSCloudIM: 4ab0f79e6c1a5e7ae9e9d76bd24290a9f15a6510
+  DKNightVersion: 405d8328b982f751df09d5d6847931a536e472ee
+  LTNavigationBar: b1c15fdcc32453d84f8b9fc774fff611c184dfbb
+  MJRefresh: c95f0d541606ef584dab3fbeda28f4f32b4aca6e
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  RCLighting: 65848aa2e93c7a5f250d3b281e73f76278725d2d
+  SDCycleScrollView: 90e43636fcc8e6a7f74e8b64d87418a8e96549b4
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  YAScrollSegmentControl: c96512f76b231e3cd6ef02a9da073e807542ad09
+
+COCOAPODS: 0.39.0
